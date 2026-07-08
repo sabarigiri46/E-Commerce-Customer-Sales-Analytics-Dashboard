@@ -1,7 +1,6 @@
 import schedule
 import time
 import pandas as pd
-# from pandas import read_csv
 import matplotlib.pyplot as plt
 import os
 from datetime import datetime
