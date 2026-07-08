@@ -142,8 +142,8 @@ def job():
     create_charts(fetch)
 
 
-# Schedule Time
-schedule.every().day.at("13:35").do(job)
+# Schedule Time every day 6 pm
+schedule.every().day.at("18:00").do(job)
 
 print("Scheduler Started...")
 
